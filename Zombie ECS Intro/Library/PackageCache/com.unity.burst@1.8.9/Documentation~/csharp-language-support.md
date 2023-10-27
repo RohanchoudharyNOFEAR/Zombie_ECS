@@ -1,3 +1,4 @@
+# C# language support
 
 Burst uses a high performance subset of C# called High Performance C# (HPC#) which has a number of limitations and differences between C#.
 
