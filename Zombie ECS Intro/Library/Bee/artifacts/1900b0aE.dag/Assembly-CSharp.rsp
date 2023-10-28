@@ -405,7 +405,15 @@
 -analyzer:"Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.SystemGenerator.SystemAPI.Query.dll"
 -analyzer:"Library/PackageCache/com.unity.entities@1.0.16/Unity.Entities/SourceGenerators/Unity.Entities.SourceGen.SystemGenerator.SystemAPI.QueryBuilder.dll"
 "Assets/Scripts/AuthoringAndMono/GraveyardMono.cs"
+"Assets/Scripts/AuthoringAndMono/MathHelpers.cs"
+"Assets/Scripts/AuthoringAndMono/ZombieMono.cs"
+"Assets/Scripts/ComponentsAndTags/GraveyardAspect.cs"
 "Assets/Scripts/ComponentsAndTags/GraveyardProperties.cs"
+"Assets/Scripts/ComponentsAndTags/GraveyardRandom.cs"
+"Assets/Scripts/ComponentsAndTags/ZombieRiseRate.cs"
+"Assets/Scripts/ComponentsAndTags/ZombieSpawnPoints.cs"
+"Assets/Scripts/Systems/SpawnTombstoneSystem.cs"
+"Assets/Scripts/Systems/SpawnZombieSystem.cs"
 -langversion:9.0
 
 /deterministic
