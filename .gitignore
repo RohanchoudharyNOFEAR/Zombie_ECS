@@ -72,3 +72,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Zombie ECS Intro/Library/PackageCache/com.unity.burst@1.8.9/.Runtime/libburst-llvm-10.dylib
 Zombie ECS Intro/Library/PackageCache/com.unity.burst@1.8.9/.Runtime/libburst-llvm-15.dylib
+Zombie ECS Intro/Recordings/Movie_001.mp4

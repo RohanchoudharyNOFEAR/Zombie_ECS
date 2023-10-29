@@ -33,8 +33,8 @@ namespace Zombie
             _transform.ValueRW.Rotation = quaternion.Euler(eatAngle, Heading, 0);
 
             var eatDamage = EatDamagePerSecond * deltaTime;
-           // var curBrainDamage = new BrainDamageBufferElement { Value = eatDamage };
-          //  ecb.AppendToBuffer(sortKey, brainEntity, curBrainDamage);
+            var curBrainDamage = new BrainDamageBufferElement { Value = eatDamage };
+            ecb.AppendToBuffer(sortKey, brainEntity, curBrainDamage);
         }
 
         public bool IsInEatingRange(float3 brainPosition, float brainRadiusSq)
