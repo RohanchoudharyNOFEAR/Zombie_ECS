@@ -24,21 +24,21 @@ namespace Zombie
             var zombieEntity = GetEntity(TransformUsageFlags.Dynamic);
 
             AddComponent(zombieEntity, new ZombieRiseRate { Value = authoring.RiseRate });
-            //AddComponent(zombieEntity, new ZombieWalkProperties
-            //{
-            //    WalkSpeed = authoring.WalkSpeed,
-            //    WalkAmplitude = authoring.WalkAmplitude,
-            //    WalkFrequency = authoring.WalkFrequency
-            //});
-            //AddComponent(zombieEntity, new ZombieEatProperties
-            //{
-            //    EatDamagePerSecond = authoring.EatDamage,
-            //    EatAmplitude = authoring.EatAmplitude,
-            //    EatFrequency = authoring.EatFrequency
-            //});
-            //AddComponent<ZombieTimer>(zombieEntity);
-            //AddComponent<ZombieHeading>(zombieEntity);
-            //AddComponent<NewZombieTag>(zombieEntity);
+            AddComponent(zombieEntity, new ZombieWalkProperties
+            {
+                WalkSpeed = authoring.WalkSpeed,
+                WalkAmplitude = authoring.WalkAmplitude,
+                WalkFrequency = authoring.WalkFrequency
+            });
+            AddComponent(zombieEntity, new ZombieEatProperties
+            {
+                EatDamagePerSecond = authoring.EatDamage,
+                EatAmplitude = authoring.EatAmplitude,
+                EatFrequency = authoring.EatFrequency
+            });
+            AddComponent<ZombieTimer>(zombieEntity);
+            AddComponent<ZombieHeading>(zombieEntity);
+            AddComponent<NewZombieTag>(zombieEntity);
 
         }
     }

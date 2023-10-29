@@ -98,5 +98,9 @@ namespace Zombie
             };
         }
 
+      
+
+        public float3 Position => Transform.Position;
+
     }
 }

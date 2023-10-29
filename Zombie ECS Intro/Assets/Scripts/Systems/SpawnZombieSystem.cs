@@ -53,8 +53,8 @@ namespace Zombie
             var newZombieTransform = graveyard.GetZombieSpawnPoint();
             ECB.SetComponent(newZombie, newZombieTransform);
 
-            // var zombieHeading = MathHelpers.GetHeading(newZombieTransform.Position, graveyard.Position);
-            // ECB.SetComponent(newZombie, new ZombieHeading { Value = zombieHeading });
+            var zombieHeading = MathHelpers.GetHeading(newZombieTransform.Position, graveyard.Position);
+            ECB.SetComponent(newZombie, new ZombieHeading { Value = zombieHeading });
         }
     }
 
